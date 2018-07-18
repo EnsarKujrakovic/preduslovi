@@ -1,0 +1,109 @@
+
+.bold {
+  font-weight: bold;
+}
+
+.inner#oglasna {
+  text-align: center;
+}
+
+.predmeti p.tableblock {
+  margin: 0;
+  padding: 0;
+}
+.predmeti td {
+  padding: 0;
+}
+
+/* Osoblje accordion */
+#snap_svg:hover {
+  cursor: pointer;
+}
+
+#sec-accord #accordion h3 {
+  margin: 2px 0 0 0;
+  line-height: 1em;
+  text-transform: none;
+}
+#sec-accord #accordion  {
+  letter-spacing: 0;
+}
+
+/* preduslovi */
+.dijagram div {
+  width:100%; */
+  margin: 20px auto;
+  background-color: #fff;
+  border:1px solid #000;
+  padding:15px;
+  text-align:center;
+}
+
+.overlay {
+  /* visibility: hidden; */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:100%;
+  height:100%;
+  text-align:center;
+  z-index: 1000;
+}
+
+.overlay div {
+  width:90%; */
+  margin: 20px auto;
+  background-color: #fff;
+  border:1px solid #000;
+  padding:15px;
+  text-align:center;
+}
+
+#preduslovi_kursevi {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  color: black;
+}
+/*
+#preduslovi svg {
+  font: inherit;   
+}
+*/
+
+#body-preduslovi #main > header {
+  padding: 3em 0 2em;
+}
+
+#preduslovi-linkovi {
+  text-align: center;
+}
+
+#preduslovi-linkovi a {
+  /* border: none; */
+}
+#preduslovi-linkovi a:hover {
+  font-weight: bold;
+}
+.course-desc {
+  display: none;
+  background: rgba(144, 144, 144, 0.25);
+  border-radius: 3px;
+  color: inherit;
+  outline: 0;
+  padding: 0 1em;
+  box-shadow: 0 0 0 2px #21b2a6;
+}
+.course-desc dt {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.course-desc p,dd {
+  font-size: 0.8em;
+}
+
+.course-desc code,h4 {
+  text-align: center;
+}
+
+

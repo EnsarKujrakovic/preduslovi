@@ -1,0 +1,55 @@
+{
+    "id":"IV-I9-IC/13",
+    "firstName":"Ensar",
+    "lastName":"Kujrakovic",
+    "classes": 
+	[
+            {"id":"MAT1", "department":"PMF", "level":"0", "fullName":"Matematika 1", "mark":"6", "obligatory":true},
+            {"id":"MAT2", "department":"PMF", "level":"0", "fullName":"Matematika 2", "mark":"7", "obligatory":true},
+            {"id":"MAT3", "department":"PMF", "level":"1", "fullName":"Matematika 3", "mark":"", "obligatory":true},
+            {"id":"FIZ1", "department":"PMF", "level":"0", "fullName":"Fizika 1", "mark":"8", "obligatory":true},
+            {"id":"FIZ2", "department":"PMF", "level":"0", "fullName":"Fizika 2", "mark":"9", "obligatory":true},
+
+            {"id":"AR103", "department":"AR", "level":"1", "fullName":"Linearni sistemi automatskog upravljanja 1", "mark":"7", "obligatory":true},
+		
+            {"id":"EEMS001", "department":"EEMS", "level":"0", "fullName":"Uvod u energetske sisteme", "mark":"6", "obligatory":true},
+            {"id":"EEMS004", "department":"EEMS", "level":"0", "fullName":"Matrične metode u elektrotehnici", "mark":"9", "obligatory":true},
+            {"id":"EEMS105", "department":"EEMS", "level":"1", "fullName":"Modeliranje sistema", "mark":"8", "obligatory":true},
+            {"id":"EEMS201", "department":"EEMS", "level":"2", "fullName":"Simulacija sistema", "mark":"9", "obligatory":true},
+	
+            {"id":"ESKE001", "department":"ESKE", "level":"0", "fullName":"Osnovi elektrotehnike 1", "mark":"10", "obligatory":true},
+            {"id":"ESKE002", "department":"ESKE", "level":"0", "fullName":"Osnovi elektrotehnike 2", "mark":"10", "obligatory":true},
+            {"id":"RI001", "department":"RI", "level":"0", "fullName":"Osnovi računarstva", "mark":"6", "obligatory":true},
+            {"id":"RI101", "department":"RI", "level":"1", "fullName":"Osnovi programiranja", "mark":"10", "obligatory":true},
+            {"id":"RI201", "department":"RI", "level":"2", "fullName":"Arhitektura računara", "mark":"8", "obligatory":true},
+            {"id":"RI202", "department":"RI", "level":"2", "fullName":"Objektno orijentirano programiranje", "mark":"8", "obligatory":true},
+            {"id":"RI203", "department":"RI", "level":"2", "fullName":"Uvod u računarske algoritme", "mark":"10", "obligatory":true},
+            {"id":"RI204", "department":"RI", "level":"2", "fullName":"Windows programiranje", "mark":"6", "obligatory":true},
+            {"id":"RI205", "department":"RI", "level":"2", "fullName":"Računarska grafika", "mark":"", "obligatory":true},
+            {"id":"RI206", "department":"RI", "level":"2", "fullName":"Primjena inžinjerskih softverskih paketa", "mark":"6", "obligatory":true},
+            {"id":"RI207", "department":"RI", "level":"2", "fullName":"Baze podataka", "mark":"", "obligatory":true},
+            {"id":"RI301", "department":"RI", "level":"3", "fullName":"Strukture podataka", "mark":"", "obligatory":true},
+            {"id":"RI302", "department":"RI", "level":"3", "fullName":"Razvoj softvera", "mark":"9", "obligatory":true},
+            {"id":"RI401", "department":"RI", "level":"4", "fullName":"Operativni sistemi", "mark":"7", "obligatory":true},
+            {"id":"RI402", "department":"RI", "level":"4", "fullName":"Dizajn kompajlera", "mark":"7", "obligatory":true},
+            {"id":"RI501", "department":"RI", "level":"5", "fullName":"Računarske mreže", "mark":"", "obligatory":true},
+            {"id":"RI502", "department":"RI", "level":"5", "fullName":"Sistemsko programiranje", "mark":"", "obligatory":true},
+            {"id":"RI601", "department":"RI", "level":"6", "fullName":"Razvoj web aplikacija", "mark":"", "obligatory":true},
+
+            {"id":"TK001", "department":"TK", "level":"0", "fullName":"Tehnologije za podršku tehničkom pisanju", "mark":"10", "obligatory":true},
+            {"id":"TK101", "department":"TK", "level":"1", "fullName":"Signali i sistemi", "mark":"", "obligatory":true},
+            {"id":"TK102", "department":"TK", "level":"1", "fullName":"Osnovi elektronike", "mark":"6", "obligatory":true},
+
+            {"id":"AR201", "department":"AR", "level":"2", "fullName":"Linearni sistemi automatskog upravljanja 2", "mark":"9", "obligatory":false},
+
+            {"id":"ESKE103", "department":"ESKE", "level":"1", "fullName":"Senzori i pretvarači", "mark":"8", "obligatory":false},
+            {"id":"ESKE201", "department":"ESKE", "level":"2", "fullName":"Elektromagnetna kompatibilnost", "mark":"10", "obligatory":false}, 
+
+            {"id":"TK005", "department":"TK", "level":"0", "fullName":"Telekomunikacione mreže", "mark":"7", "obligatory":false},
+
+            {"id":"BMI201", "department":"BMI", "level":"2", "fullName":"Klinički inžinjering", "mark":"8", "obligatory":false},
+            {"id":"BMI202", "department":"BMI", "level":"2", "fullName":"Principi biomedicinskog inžinjeringa", "mark":"9", "obligatory":false},
+            {"id":"BMI203", "department":"BMI", "level":"2", "fullName":"Obrada i analiza medicinskih slika", "mark":"9", "obligatory":false},
+            {"id":"BMI204", "department":"BMI", "level":"2", "fullName":"Prepoznavanje uzoraka", "mark":"7", "obligatory":false}
+        ]
+}

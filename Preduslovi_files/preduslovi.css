@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+body{
+  font-family: 'Open Sans' sans-serif;
+}
+.wrapper.style5.graph {
+  padding: 1em;
+}
+svg {
+  cursor: default;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+}
+@-moz-document url-prefix() {
+  #categoryBackNextButtons{
+    width:486px;
+  }
+}
+path.link {
+  fill: none;
+  stroke: #999;
+  cursor: default;
+}
+text {
+  font-size: 0.95rem;
+  pointer-events: none;
+}
+text.id {
+  font-weight: bold;
+  text-anchor: middle;
+}
+circle.node {
+  stroke-width: 0.1rem;
+  cursor: pointer;
+}
+circle.node.reflexive {
+  stroke-width: 0.25rem;
+  stroke: #2D3742 !important;
+}
+circle.node.selected {
+  fill: #2D3742 !important;
+}
+div #content{
+  height:100%;
+  width: 100%;
+}
+div #graph{
+  display:inline-block;
+  width:73%;
+  height:90vh;
+}
+div #legend{
+  display:inline-block;
+  vertical-align:top;
+  width: 100%;
+}
+div #classDetailsDiv{
+  background-color: #ccc;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+#classDetailsDiv.slider {
+	overflow-y: hidden;
+	max-height: 500px; /* approximate max height */
+	transition-property: all;
+	transition-duration: .5s;
+}
+#classDetailsDiv.slider.closed{
+  max-height : 0px;
+  opacity : 0;
+}
+
+#legendContainer {
+  width: 26%;
+  height:70vh;
+  float: left;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+#legend::-webkit-scrollbar { 
+  display: none;
+}
+
+#legend ul li {
+  width: 100%;
+  text-decoration: none;
+  margin-left: -20px;
+  font-weight: normal;
+  font-size: .8rem;
+  list-style-type: none;
+  text-align: left;
+}
+#legend li{
+  width: 100%;
+}
+#legend ul li:hover {
+  cursor: pointer;
+}
+.legendlist {
+  display: inline-block;
+  vertical-align: top;
+  overflow: auto;
+}
+.classes {
+  width: 49%;
+  font-size: 0.8rem;
+}
+.zoombtns {
+  position: relative;
+  left: 30px;
+}
